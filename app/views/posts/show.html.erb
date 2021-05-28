@@ -10,7 +10,7 @@ Categories <%= @post.categories.map(&:name).join(' ') %>
 
 
 
-People who've commented:
+People who commented:
 
     <% @post.users.distinct.each do |user| %>
     <li>
